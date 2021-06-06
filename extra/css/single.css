@@ -1,0 +1,62 @@
+.business-slides-section {}
+
+
+.business-slides-section .splide li img {
+    border: 0px !important;
+    border-radius: 15px;
+}
+
+
+.business-btn-section {
+    padding-top: 25px;
+    padding-bottom: 55px;
+}
+
+.business-btn-section a {
+    padding-left: 20px;
+
+}
+
+.business-btn-section a .btn {
+    border-radius: 7px !important;
+    font-size: 17px;
+}
+
+
+/*MEDIA QUERY STARTED****************/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .business-slides-section .splide li img {
+        border: 0px !important;
+        border-radius: 15px;
+        height: 300px !important;
+
+    }
+
+
+    .business-btn-section {
+        padding-top: 25px;
+        padding-bottom: 55px;
+
+    }
+
+    .business-btn-section a {
+        padding-left: 0px;
+
+    }
+
+    .business-btn-section a .btn {
+        border-radius: 7px !important;
+        font-size: 15px;
+        height: 45px;
+
+    }
+
+    .business-btn-section .share-btn {
+        margin-left: 25px;
+    }
+
+
+
+}
